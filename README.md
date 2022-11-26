@@ -4,6 +4,13 @@ Scrapes and curates in danger pets from local shelters
 First install all uninstalled dependancies by running 
 python3 -m pip install MISSINGDEPENDANCY
 
+deps list:
+[
+beautifulsoup4==4.11.1
+Pillow==9.3.0
+requests==2.28.1
+tqdm==4.64.1
+]
 Once installed navigate to the correct directory and run the main program with 
 python main.py
 
